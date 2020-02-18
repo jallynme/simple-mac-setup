@@ -16,3 +16,11 @@ brew cask install battle-net
 brew cask install steam
 brew cask install cleanmymac
 brew cask install rapidminer-studio
+brew cask install google-backup-and-sync
+brew cask install dropbox
+brew cask install caprine
+brew cask install adobe-creative-cloud
+brew cask install openemu
+brew cask install unetbootin
+brew cask install parallels
+brew cask install openinterminal

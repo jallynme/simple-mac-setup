@@ -32,3 +32,5 @@ mas install 803453959  # Slack
 mas install 1278508951 # Trello 
 mas install 668208984  # GIPHY CAPTURE
 mas install 441258766  # Magnet 
+mas install 1196268448 # Klib
+mas install 405399194  # Kindle 
