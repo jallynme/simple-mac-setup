@@ -1,26 +1,20 @@
-brew cask install google-chrome
-brew cask install spotify
-brew cask install anaconda
-brew cask install postman
-brew cask install java8
-brew cask install sourcetree
-brew cask install android-studio
-brew cask install android-sdk
-brew cask install sketch
-brew cask install skype	
-brew cask install appcleaner
-brew cask install vlc	
-brew cask install proxyman
-brew cask install docker
-brew cask install battle-net
-brew cask install steam
-brew cask install cleanmymac
-brew cask install rapidminer-studio
-brew cask install google-backup-and-sync
-brew cask install dropbox
-brew cask install caprine
-brew cask install adobe-creative-cloud
-brew cask install openemu
-brew cask install unetbootin
-brew cask install parallels
-brew cask install openinterminal
+brew install --cask --appdir=/Applications google-chrome
+brew install --cask --appdir=/Applications spotify
+brew install --cask --appdir=/Applications postman
+brew install --cask --appdir=/Applications sourcetree
+brew install --cask --appdir=/Applications android-studio
+brew install --cask --appdir=/Applications android-sdk
+brew install --cask --appdir=/Applications sketch
+brew install --cask --appdir=/Applications skype	
+brew install --cask --appdir=/Applications appcleaner
+brew install --cask --appdir=/Applications vlc	
+brew install --cask --appdir=/Applications proxyman
+brew install --cask --appdir=/Applications battle-net
+brew install --cask --appdir=/Applications steam
+brew install --cask --appdir=/Applications cleanmymac
+brew install --cask --appdir=/Applications rapidminer-studio
+brew install --cask --appdir=/Applications google-backup-and-sync
+brew install --cask --appdir=/Applications dropbox
+brew install --cask --appdir=/Applications adobe-creative-cloud
+brew install --cask --appdir=/Applications unetbootin
+brew install --cask --appdir=/Applications openinterminal

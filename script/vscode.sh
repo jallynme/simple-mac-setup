@@ -6,8 +6,6 @@ code --install-extension onjayamanne.git-extension-pack
 code --install-extension donjayamanne.githistory
 code --install-extension codezombiech.gitignor
 code --install-extension eamodio.gitlens
-code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension vscjava.vscode-java-debug
 code --install-extension editorconfig.editorconfig
 code --install-extension vscode-anaconda-extension-pack
 code --install-extension kevinkyang.auto-comment-blocks
@@ -39,7 +37,6 @@ code --install-extension davidanson.vscode-markdownlint
 code --install-extension pkief.material-icon-theme
 code --install-extension equinusocio.vsc-material-theme
 code --install-extension equinusocio.vsc-material-theme-icons
-code --install-extension vscjava.vscode-maven
 code --install-extension eg2.vscode-npm-script
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension esbenp.prettier-vscode
@@ -48,8 +45,7 @@ code --install-extension ms-python.python
 code --install-extension bung87.vscode-gemfile
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension redhat.vscode-yaml
-code --install-extension vscode-icons-team.vscode-icons
-code --install-extension deerawan.vscode-faker
+code --install-extension vscode-icons-team.vscode-icon
 code --install-extension wingrunr21.vscode-ruby
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension gruntfuggly.todo-tree

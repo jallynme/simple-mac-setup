@@ -3,13 +3,8 @@
 # install mas-cli to install from the Mac App store
 brew install mas
 
-# get Apple ID
-echo ""
-echo "Enter AppleID to signin to Mac App Store:"
-read -p "AppleID: " APPLEID
+echo "Make sure signed into Mac App Store ?"
 
-# make sure signed into Mac App Store
-mas signin $APPLEID
 
 # install macos apps
 mas install 497799835  # Xcode

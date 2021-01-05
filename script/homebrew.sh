@@ -14,7 +14,11 @@ fi
 
 echo "Installing Homebrew ..."
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+cd ~ && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+
+source .zshrc
 
 # Make sure Brew has permissions
 brew doctor
@@ -31,6 +35,10 @@ node --version
 # Install Python 
 brew install python
 brew install pyenv
+brew install pyenv-virtualenv
+pyenv init 
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # install Ruby
 brew install ruby
@@ -42,16 +50,9 @@ brew install git
 git --version
 
 # Install Brew cask for standalone software installations
-brew tap caskroom/cask
-brew install brew-cask
-brew tap caskroom/versions
-brew install haxm
+brew tap homebrew/cask
+brew install brew-cask-completion
 
-
-# docker stuff
-brew install docker-clean
-brew install docker-completion
-brew install docker-compose-completion
 
 # Be able to use the Brewfile to install all software
 # see https://github.com/Homebrew/homebrew-bundle
